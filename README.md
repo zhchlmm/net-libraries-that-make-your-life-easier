@@ -23,12 +23,16 @@ Ah, and make sure to also check these other great lists:
 * [Autofac](#autofac)
 * [AutoMapper](#automapper)
 * [BCrypt.Net](#bcryptnet)
+* [BenchmarkDotNet](#benchmarkdotnet)
+* [Caliburn.Micro](#caliburnmicro)
 * [ChameleonForms](#chameleonforms)
-* [CsQuery](#csquery)
+* [CodeJam](#codejam)
+* [CommonMark.NET](#commonmarknet)
 * [CsvHelper](#csvhelper)
 * [Cirqus](#cirqus)
 * [Dapper](#dapper)
 * [DoddleReport](#doddlereport)
+* [DotVVM](#dotvvm)
 * [Dynamic Data](#dynamic-data)
 * [Effort](#effort)
 * [ELMAH](#elmah)
@@ -36,6 +40,7 @@ Ah, and make sure to also check these other great lists:
 * [Fasterflect](#fasterflect)
 * [Fibber](#fibber)
 * [Fixie](#fixie)
+* [FlatFiles](#flatfiles)
 * [FluentAssertions](#fluent-assertions)
 * [FluentMigrator](#fluentmigrator)
 * [FluentScheduler](#fluentscheduler)
@@ -54,12 +59,17 @@ Ah, and make sure to also check these other great lists:
 * [Json.NET](#jsonnet)
 * [libsodium](#libsodium)
 * [LINQ to DB](#linq-to-db)
+* [LiteDB](#litedb)
 * [Logary](#logary)
+* [MahApps.Metro](#mahappsmetro)
 * [MailKit](#mailkit)
+* [MetadataExtractor](#metadataextractor)
 * [MimeKit](#mimekit)
 * [Nancy](#nancy)
+* [NAudio](#naudio)
 * [NFluent](#nfluent)
 * [NLog](#nlog)
+* [NPOI](#npoi)
 * [NSubstitute](#nsubstitute)
 * [OpaqueMail](#opaquemail)
 * [Polly](#polly)
@@ -71,6 +81,7 @@ Ah, and make sure to also check these other great lists:
 * [RestSharp](#restsharp)
 * [Serilog](#serilog)
 * [ServiceStack](#servicestack)
+* [SharpNetSH](#sharpnetsh)
 * [Shouldly](#shouldly)
 * [Simple.Data](#simpledata)
 * [SpecsFor](#specsfor)
@@ -81,7 +92,15 @@ Ah, and make sure to also check these other great lists:
 * [Topshelf](#topshelf)
 * [TuesPechkin](#tuespechkin)
 * [Units.NET](#unitsnet)
+* [Web Markup Minifier](#web-markup-minifier)
+* [Scientist.net](#scientistnet)
 * [Serenity](#serenity)
+* [SharpZipLib](#sharpziplib)
+* [Sprache](#sprache)
+* [StackExchange.Redis](#stackexchangeredis)
+* [SuperSocket](#supersocket)
+* [Websocket-sharp](#websocket-sharp)
+* [YamlDotNet](#yamldotnet)
 
 ## Abot
 
@@ -141,6 +160,26 @@ A .Net port of jBCrypt implemented in C#.
 [bcryptnet-gh]:    http://bcrypt.codeplex.com
 [bcryptnet-nuget]: https://www.nuget.org/packages/BCrypt-Official
 
+## [BenchmarkDotNet]
+
+<sup>[GitHub][benchmarkdotnet-gh]</sup> <sup>[NuGet][benchmarkdotnet-nuget]</sup>
+
+Powerful .NET library for benchmarking.
+
+[BenchmarkDotNet]:       http://benchmarkdotnet.org
+[benchmarkdotnet-gh]:    https://github.com/dotnet/BenchmarkDotNet
+[benchmarkdotnet-nuget]: https://www.nuget.org/packages/BenchmarkDotNet
+
+## [Caliburn.Micro]
+
+<sup>[GitHub][caliburnmicro-gh]</sup> <sup>[NuGet][caliburnmicro-nuget]</sup>
+
+A small, yet powerful framework, designed for building applications across all XAML platforms. Its strong support for MV\* patterns will enable you to build your solution quickly, without the need to sacrifice code quality or testability.
+
+[Caliburn.Micro]:      http://caliburnmicro.com
+[caliburnmicro-gh]:    https://github.com/Caliburn-Micro/Caliburn.Micro
+[caliburnmicro-nuget]: https://www.nuget.org/packages/Caliburn.Micro
+
 ## ChameleonForms
 
 <sup>[GitHub][chameleonforms-gh]</sup> <sup>[NuGet][chameleonforms-nuget]</sup>
@@ -150,14 +189,23 @@ This library will shape-shift your forms experience in ASP.NET MVC.
 [chameleonforms-gh]:    https://github.com/MRCollective/ChameleonForms
 [chameleonforms-nuget]: https://www.nuget.org/packages/ChameleonForms
 
-## CsQuery
+## CodeJam
 
-<sup>[GitHub][csquery-gh]</sup> <sup>[NuGet][csquery-nuget]</sup>
+<sup>[GitHub][codejam-gh]</sup> <sup>[Nuget][codejam-nuget]</sup>
 
-CsQuery is a complete CSS selector engine, HTML parser, and jQuery port for C# and .NET 4.
+Set of handy reusable .NET components that can simplify your daily work and save your time when you copy and paste your favorite helper methods and classes from one project to another
 
-[csquery-gh]:    https://github.com/jamietre/CsQuery
-[csquery-nuget]: https://www.nuget.org/packages/CsQuery
+[codejam-gh]:    https://github.com/rsdn/CodeJam
+[codejam-nuget]: https://www.nuget.org/packages/CodeJam
+
+## CommonMark.NET
+
+<sup>[GitHub][commonmarknet-gh]</sup> <sup>[Nuget][commonmarknet-nuget]</sup>
+
+Implementation of CommonMark specification in C# for converting Markdown documents to HTML.
+
+[commonmarknet-gh]:    https://github.com/Knagis/CommonMark.NET
+[commonmarknet-nuget]: https://www.nuget.org/packages/CommonMark.NET
 
 ## CsvHelper
 
@@ -188,12 +236,22 @@ A simple object mapper for .Net.
 
 ## DoddleReport
 
-<sup><del>GitHub</del> [CodePlex][doddlereport-gh]</sup> <sup>[NuGet][doddlereport-nuget]</sup>
+<sup>[GitHub][doddlereport-gh]</sup> <sup>[NuGet][doddlereport-nuget]</sup>
 
 DoddleReport generates tabular reports from any IEnumerable datasource.
 
-[doddlereport-gh]:    http://doddlereport.codeplex.com
+[doddlereport-gh]:    https://github.com/matthidinger/DoddleReport
 [doddlereport-nuget]: https://www.nuget.org/packages/DoddleReport
+
+## [DotVVM]
+
+<sup>[GitHub][dotvvm-gh]</sup> <sup>[NuGet][dotvvm-nuget]</sup>
+
+MVVM framework for people who don't like to write JavaScript, with OWIN and ASP.NET Core support and a free extension for Visual Studio 2015 and 2017
+
+[DotVVM]:            https://dotvvm.com
+[dotvvm-gh]:         https://github.com/riganti/dotvvm
+[dotvvm-nuget]:      https://www.nuget.org/packages/DotVVM
 
 ## [Dynamic Data]
 
@@ -260,6 +318,15 @@ Conventional Testing for .NET.
 [Fixie]:       http://fixie.github.io
 [fixie-gh]:    https://github.com/fixie/fixie
 [fixie-nuget]: https://www.nuget.org/packages/Fixie
+
+## FlatFiles
+
+<sup>[GitHub][flatfiles-gh]</sup> <sup>[NuGet][flatfiles-nuget]</sup>
+
+Reads and writes CSV, fixed-length and other flat file formats with a focus on schema definition, configuration and speed.
+
+[flatfiles-gh]:    https://github.com/jehugaleahsa/FlatFiles
+[flatfiles-nuget]: https://www.nuget.org/packages/FlatFiles
 
 ## [Fluent Assertions]
 
@@ -348,13 +415,14 @@ Incredibly easy way to perform fire-and-forget, delayed and recurring tasks insi
 [hangfire-gh]:    https://github.com/HangfireIO/Hangfire
 [hangfire-nuget]: https://www.nuget.org/packages/HangFire
 
-## HtmlAgilityPack
+## [HtmlAgilityPack]
 
-<sup><del>GitHub</del> [CodePlex][htmlagilitypack-gh]</sup> <sup>[NuGet][htmlagilitypack-nuget]</sup>
+<sup>[GitHub][htmlagilitypack-gh]</sup> <sup>[NuGet][htmlagilitypack-nuget]</sup>
 
 An agile HTML parser that builds a read/write DOM and supports plain XPATH or XSLT allowing you to parse "out of the web" HTML files.
 
-[htmlagilitypack-gh]:    https://htmlagilitypack.codeplex.com
+[HtmlAgilityPack]:       http://html-agility-pack.net
+[htmlagilitypack-gh]:    https://github.com/zzzprojects/html-agility-pack
 [htmlagilitypack-nuget]: https://www.nuget.org/packages/HtmlAgilityPack
 
 ## Humanizer
@@ -431,6 +499,16 @@ Linq to database provider.
 [linqtodb-gh]:    https://github.com/linq2db/linq2db
 [linqtodb-nuget]: https://www.nuget.org/packages/linq2db
 
+## [LiteDB]
+
+<sup>[GitHub][litedb-gh]</sup> <sup>[NuGet][litedb-nuget]</sup>
+
+A .NET NoSQL Document Store in a single data file.
+
+[LiteDB]:       http://litedb.org
+[litedb-gh]:    https://github.com/mbdavid/LiteDB
+[litedb-nuget]: https://www.nuget.org/packages/LiteDB
+
 ## [Logary]
 
 <sup>[GitHub][logary-gh]</sup> <sup>[NuGet][logary-nuget]</sup>
@@ -441,6 +519,16 @@ Logary is the best logging framework for .Net. It's a high performance, multi-ta
 [logary-gh]:    https://github.com/logary/logary
 [logary-nuget]: https://www.nuget.org/packages/Logary
 
+## [MahApps.Metro]
+
+<sup>[GitHub][mahappsmetro-gh]</sup> <sup>[NuGet][mahappsmetro-nuget]</sup>
+
+ A toolkit for creating Metro / Modern UI styled WPF apps.
+
+[MahApps.Metro]:      http://mahapps.com
+[mahappsmetro-gh]:    https://github.com/MahApps/MahApps.Metro
+[mahappsmetro-nuget]: https://www.nuget.org/packages/MahApps.Metro
+
 ## MailKit
 
 <sup>[GitHub][mailkit-gh]</sup> <sup>[NuGet][mailkit-nuget]</sup>
@@ -449,6 +537,15 @@ A cross-platform .NET library for IMAP, POP3, and SMTP.
 
 [mailkit-gh]:    https://github.com/jstedfast/MailKit
 [mailkit-nuget]: https://www.nuget.org/packages/MailKit
+
+## MetadataExtractor
+
+<sup>[GitHub][metadataextractor-gh]</sup> <sup>[NuGet][metadataextractor-nuget]</sup>
+
+A cross-platform .NET library for extracting metadata (including Exif, IPTC, XMP, ICC) from image and video formats (including JPEG, PNG, GIF).
+
+[metadataextractor-gh]:    https://github.com/drewnoakes/metadata-extractor-dotnet
+[metadataextractor-nuget]: https://www.nuget.org/packages/MetadataExtractor
 
 ## [MimeKit]
 
@@ -470,6 +567,15 @@ Lightweight, low-ceremony, framework for building HTTP based services on .Net an
 [nancy-gh]:    https://github.com/NancyFx/Nancy
 [nancy-nuget]: https://www.nuget.org/packages/Nancy
 
+## NAudio
+
+<sup>[GitHub][naudio-gh]</sup> <sup>[NuGet][naudio-nuget]</sup>
+
+Audio and MIDI library for .NET.
+
+[naudio-gh]:    https://github.com/naudio/NAudio
+[naudio-nuget]: https://www.nuget.org/packages/NAudio
+
 ## [NFluent]
 
 <sup>[GitHub][nfluent-gh]</sup> <sup>[NuGet][nfluent-nuget]</sup>
@@ -489,6 +595,15 @@ Advanced .NET and Silverlight Logging.
 [NLog]:       http://nlog-project.org
 [nlog-gh]:    https://github.com/NLog/NLog
 [nlog-nuget]: https://www.nuget.org/packages/NLog
+
+## NPOI
+
+<sup><del>GitHub</del> [CodePlex][npoi-gh]</sup> <sup>[NuGet][npoi-nuget]</sup>
+
+.NET version of POI Java project, an open source project which can help you read/write xls, doc, ppt files.
+
+[npoi-gh]:    https://npoi.codeplex.com
+[npoi-nuget]: https://www.nuget.org/packages/NPOI
 
 ## [NSubstitute]
 
@@ -598,6 +713,15 @@ Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for 
 [servicestack-gh]:    https://github.com/ServiceStack/ServiceStack
 [servicestack-nuget]: https://www.nuget.org/packages/ServiceStack
 
+## SharpNetSH
+
+<sup>[GitHub][sharpnetsh-gh]</sup> <sup>[NuGet][sharpnetsh-nuget]</sup>
+
+A simple netsh library for C#.
+
+[sharpnetsh-gh]:    https://github.com/rpetz/SharpNetSH
+[sharpnetsh-nuget]: https://www.nuget.org/packages/SharpNetSH
+
 ## [Shouldly]
 
 <sup>[GitHub][shouldly-gh]</sup> <sup>[NuGet][shouldly-nuget]</sup>
@@ -694,12 +818,87 @@ Makes life working with units of measurement just a little bit better.
 [unitsnet-gh]:    https://github.com/anjdreas/UnitsNet
 [unitsnet-nuget]: https://www.nuget.org/packages/UnitsNet
 
+## Web Markup Minifier
+
+<sup>[GitHub][webmarkupmin-gh]</sup> <sup>[NuGet][webmarkupmin-nuget]</sup>
+
+A .NET library that contains a set of markup minifiers. The objective of this project is to improve the performance of web applications by reducing the size of HTML, XHTML and XML code.
+
+[webmarkupmin-gh]:    https://github.com/Taritsyn/WebMarkupMin
+[webmarkupmin-nuget]: https://www.nuget.org/packages/WebMarkupMin.Core
+
+## Scientist.net
+
+<sup>[GitHub][scientistnet-gh]</sup> <sup>[NuGet][scientistnet-nuget]</sup>
+
+A .NET Port of the Scientist library for carefully refactoring critical paths.
+
+[scientistnet-gh]:    https://github.com/github/Scientist.net
+[scientistnet-nuget]: https://www.nuget.org/packages/Scientist
+
 ## [Serenity]
 
 <sup>[GitHub][serenity-gh]</sup> <sup>[NuGet][serenity-nuget]</sup>
 
-Serenity is a Javascript / .NET application platform which has been built on open source technologies.
+Serenity is a Typescript / .NET application platform which has been built on open source technologies.
 
 [Serenity]:       https://volkanceylan.gitbooks.io/serenity-guide/content
 [serenity-gh]:    https://github.com/volkanceylan/Serenity
 [serenity-nuget]: https://www.nuget.org/profiles/volkanceylan
+
+## [SharpZipLib]
+
+<sup>[GitHub][sharpziplib-gh]</sup> <sup>[NuGet][sharpziplib-nuget]</sup>
+
+#ziplib is a Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform.
+
+[SharpZipLib]:       http://icsharpcode.github.io/SharpZipLib/
+[sharpziplib-gh]:    https://github.com/icsharpcode/SharpZipLib
+[sharpziplib-nuget]: https://www.nuget.org/packages/SharpZipLib
+
+## Sprache
+
+<sup>[GitHub][sprache-gh]</sup> <sup>[NuGet][sprache-nuget]</sup>
+
+Sprache is a simple, lightweight library for constructing parsers directly in C# code.
+
+[sprache-gh]:    https://github.com/sprache/Sprache
+[sprache-nuget]: https://www.nuget.org/packages/Sprache
+
+## StackExchange.Redis
+
+<sup>[GitHub][stackexchangeredis-gh]</sup> <sup>[NuGet][stackexchangeredis-nuget]</sup>
+
+StackExchange.Redis is a high performance general purpose redis client for .NET languages.
+
+[stackexchangeredis-gh]:    https://github.com/StackExchange/StackExchange.Redis
+[stackexchangeredis-nuget]: https://www.nuget.org/packages/StackExchange.Redis
+
+## [SuperSocket]
+
+<sup>[GitHub][supersocket-gh]</sup> <sup>[NuGet][supersocket-nuget]</sup>
+
+SuperSocket is a light weight, cross platform and extensible socket server application framework.
+
+[SuperSocket]:       http://www.supersocket.net
+[supersocket-gh]:    https://github.com/kerryjiang/SuperSocket
+[supersocket-nuget]: https://www.nuget.org/packages/SuperSocket
+
+## Websocket-sharp
+
+<sup>[GitHub][websocketsharp-gh]</sup> <sup>[NuGet][websocketsharp-nuget]</sup>
+
+A C# implementation of the WebSocket protocol client and server.
+
+[websocketsharp-gh]:    https://github.com/sta/websocket-sharp
+[websocketsharp-nuget]: https://www.nuget.org/packages/WebSocketSharp
+
+## [YamlDotNet]
+
+<sup>[GitHub][yamldotnet-gh]</sup> <sup>[NuGet][yamldotnet-nuget]</sup>
+
+YamlDotNet is a .NET library for YAML.
+
+[YamlDotNet]:       http://aaubry.net/pages/yamldotnet.html
+[yamldotnet-gh]:    https://github.com/aaubry/YamlDotNet
+[yamldotnet-nuget]: https://www.nuget.org/packages/YamlDotNet
